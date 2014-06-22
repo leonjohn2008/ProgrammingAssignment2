@@ -19,10 +19,9 @@ list(set=set, get=get,
 
 
 ## Write a short comment describing this function
+## Return a matrix that is the inverse of 'x'
 
-cacheSolve <- function(x= matrix (), ...) {
-        ## Return a matrix that is the inverse of 'x'
-
+cacheSolve <- function(x= matrix(), ...) {
     m <- x$getmatrix()
     if(!is.null(m)){
       message("Can get cached data")
